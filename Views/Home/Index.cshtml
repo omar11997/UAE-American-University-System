@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To UAE American Unversity</h1>
+    <div class="smallcontainer">
+        <a href="/Exam/GetAllExams"><h2>Teacher</h2></a>
+        <a href="/Student/ShowStudentPage"><h2>Student</h2></a>
+
+    </div>
+</div>
+<style>
+    
+    body {
+        background-image: url('/image/background.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+       
+    }
+    h1,h2{
+        color: white;
+    }
+
+    smallcontainer {
+        width:300px;
+        height:300px;
+        display: flex;
+        justify-content: space-between;
+    }
+   
+</style>

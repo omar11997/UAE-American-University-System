@@ -1,0 +1,46 @@
+﻿@model Exam
+<h2 style="text-align: center"> @Model.Name Exam Details</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>CourseName</th>
+        <th>TotalDegree</th>
+        <th>Year</th>
+        <th>Edit</th>
+        <th>Delete</th>
+
+
+    </tr>
+   
+        <tr>
+            <td>@Model.ID</td>
+            <td>@Model.Name</td>
+            <td>@Model.CourseName</td>
+            <td>@Model.TotalDegree</td>
+            <td>@Model.Year</td>
+
+           
+        <td><a href="/Question/AddNewQuestion/@Model.ID" class="btn btn-primary">Add Questions</a></td>
+        <td><a href="/Exam/DeleteExam/@Model.ID" class="btn btn-primary">Delete Exam</a></td>
+        </tr>
+</table>
+<h2>Exam Questions </h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Question</th>
+        <th>Question SCORE</th>
+        <th>Question</th>
+        <th>Question SCORE</th>
+    </tr>
+    <tr>
+        @foreach (var item in Model?.Questions)
+        {
+            <td>@item.QuestionBody</td>
+            <td>@item.QuetionScore</td>
+        };
+    </tr>
+        
+    
+</table>

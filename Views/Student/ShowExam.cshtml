@@ -1,0 +1,79 @@
+﻿@using UAE_American_University.ViewModel;
+@model StudentExamVM
+
+<div class="container">
+    <h2> Exam: @Model.ExamName   Year : @Model.Year</h2>
+   
+    <form action="/Student/SubmitExam" method="post">
+        <div class="form-group">
+            <label for="StudentName">Insert Your Name:</label>
+            <input type="text" class="form-control" id="StudentName" value="@Model.StudentName" name="StudentName" required />
+        </div>
+        <div class="form-group">
+            <label for="StudentId">ID:</label>
+            <input type="text" class="form-control" id="StudentId" value="@Model.StudentId" name="StudentId" required />
+        </div>
+        @foreach (var question in Model.Questions)
+        {
+            <div class="form-group">
+                <h4>Q @question.ID : @question.QuestionBody</h4>
+               
+            </div>
+            if (question.Type == "multiple choice")
+            {
+                foreach (var choice in question.OptionalAnswer.Split(",") )
+                {
+                    //h2>@question.ID</h2>
+                    @*<input type="radio" id="@question.ID" name="Answers" value="@Model.Answers">
+                    <label for="Answers">@choice</label>
+                    <br>*@
+                    <input type="radio" id="Answer_@question.ID@choice" name="Answers[@question.ID]" value="@choice">
+                    <label for="Answer_@question.ID@choice">@choice</label>
+                    <br>
+                }
+               
+            }
+            if (question.Type == "true/false")
+            {
+                @*<input type="radio" id="@question.ID" name="Answers" value="@Model.Answers">
+                <label for="Answers">True</label>
+                <br>*@
+                <input type="radio" id="Answer_@question.ID@question" name="Answers[@question.ID]" value="True">
+                <label for="Answer_@question.ID@question">True</label>
+                <br>
+
+                @*<input type="radio" id="@question.ID" name="Answers" value="@Model.Answers">
+                <label for="Answers">False</label>
+                <br>*@
+                <input type="radio" id="Answer_@question.ID@question" name="Answers[@question.ID]" value="False">
+                <label for="Answer_@question.ID@question">False</label>
+                <br>
+            }
+            if (question.Type == "fill-in-the-blank")
+            {
+                <div class="form-group">
+                    <label for="Answers">insert your Answer:</label>
+                    <input type="text" class="form-control" id="@question.ID" value="@Model.Answers" name="Answers" required />
+                </div>
+            }
+            if (question.Type == "essay")
+            {
+                <div class="form-group">
+                    <label for="Answers">insert your Answer:</label>
+                    <input type="text" class="form-control" id="@question.ID" value="@Model.Answers" name="Answers" required />
+                </div>
+            }
+           
+        }
+        
+
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <a href="/Student/ShowStudentPage" class="btn btn-primary" style="margin-top: 10px">Back To List</a>
+</div>
+<style>
+    h4{
+        margin-top: 20px;
+    }
+
+</style>

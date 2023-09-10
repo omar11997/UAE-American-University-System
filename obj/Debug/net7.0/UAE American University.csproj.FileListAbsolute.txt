@@ -1,0 +1,42 @@
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\appsettings.Development.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\appsettings.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\UAE American University.staticwebassets.runtime.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\UAE American University.exe
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\UAE American University.deps.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\UAE American University.runtimeconfig.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\UAE American University.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\UAE American University.pdb
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.csproj.AssemblyReference.cache
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.AssemblyInfoInputs.cache
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.AssemblyInfo.cs
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.csproj.CoreCompileInputs.cache
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.MvcApplicationPartsAssemblyInfo.cache
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.RazorAssemblyInfo.cache
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.RazorAssemblyInfo.cs
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets\msbuild.UAE American University.Microsoft.AspNetCore.StaticWebAssets.props
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets\msbuild.build.UAE American University.props
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UAE American University.props
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UAE American University.props
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets.pack.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets.build.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\staticwebassets.development.json
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\scopedcss\bundle\UAE American University.styles.css
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\scopedcss\projectbundle\UAE American University.bundle.scp.css
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\refint\UAE American University.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.pdb
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.genruntimeconfig.cache
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\ref\UAE American University.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Humanizer.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Npgsql.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\bin\Debug\net7.0\System.CodeDom.dll
+D:\ITI 9 months internship\MVC(ASP.NET)\UAE American University\obj\Debug\net7.0\UAE American University.csproj.CopyComplete

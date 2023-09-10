@@ -1,0 +1,51 @@
+﻿@model List<Student>
+<h2 style="text-align: center"> all Students</h2>
+<a href="" class="btn btn-primary">Add New Student</a>
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+       
+       
+        <th>Address</th>
+        <th>Age </th>
+        <th>Universary Grade</th>
+        
+
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Address</td>
+            <td>@item.Age</td>
+            <td>@item.UniversaryGrade</td>
+           
+
+        </tr>
+    }
+</table>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>

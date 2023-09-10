@@ -1,0 +1,41 @@
+﻿
+@{
+    List<string> InputTypes = new List<string> { "multiple choice", "true/false", "fill-in-the-blank", "essay" };
+    SelectList QuestionTypeOptions = new SelectList(InputTypes);
+}
+<div class="container">
+    <h2>Add a Question to Exam: @ViewBag.examName</h2>
+
+   
+    <form action="/Question/SaveNewQuestion?ExamId=@ViewBag.ID" method="post">
+        <div class="form-group">
+            <label for="QuestionBody">QuestionBody:</label>
+            <input type="text" class="form-control" id="QuestionBody" value="@Model?.QuestionBody" name="QuestionBody" required />
+        </div>
+        <div class="form-group">
+            <label for="QuetionScore">Question Score:</label>
+            <input type="text" class="form-control" id="QuetionScore" value="@Model?.QuetionScore" name="QuetionScore" required />
+        </div>
+       
+        <div>
+            <label for="Type">Choose Type:</label>
+            <select name="Type" class="form-control" id="Type">
+                @foreach (var item in InputTypes)
+                {
+                    <option value="@item">@item</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Answer">Question OptionalAnswer(seperated by ","):</label>
+            <input type="text" class="form-control" id="OptionalAnswer" value="@Model?.OptionalAnswer" name="OptionalAnswer" required />
+        </div>
+        <div class="form-group">
+            <label for="RightAnswer">Question RightAnswer:</label>
+            <input type="text" class="form-control" id="RightAnswer" value="@Model?.RightAnswer" name="RightAnswer" required />
+        </div>
+        
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <a href="/Exam/GetAllExams" class="btn btn-primary" style="margin-top: 10px">Back To List</a>
+</div>

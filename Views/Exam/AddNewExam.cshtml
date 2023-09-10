@@ -1,0 +1,29 @@
+﻿
+<div class="container">
+    <h2>New Exam Info</h2>
+    <form action="/Exam/SaveNewExam" method="post">
+        <div class="form-group">
+            <label for="ID">ExamId:</label>
+            <input type="text" class="form-control" id="ID" value="@Model?.ID" name="ID" required />
+        </div>
+        <div class="form-group">
+            <label for="Name">Exam Name:</label>
+            <input type="text" class="form-control" id="Name" value="@Model?.Name" name="Name" required />
+        </div>
+        <div class="form-group">
+            <label for="TotalDegree">TotalDegree :</label>
+            <input type="text" class="form-control" id="TotalDegree" value="@Model?.TotalDegree" name="TotalDegree" required />
+        </div>
+        <div class="form-group">
+            <label for="CourseName">CourseName:</label>
+            <input type="text" class="form-control" id="CourseName" value="@Model?.CourseName" name="CourseName" required />
+        </div>
+        <div class="form-group">
+            <label for="Year">Year:</label>
+            <input type="text" class="form-control" id="Year" value="@Model?.Year" name="Year" required />
+        </div>
+         <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <a href="/Exam/GetAllExams" class="btn btn-primary" style="margin-top: 10px">Back To List</a>
+   
+</div>

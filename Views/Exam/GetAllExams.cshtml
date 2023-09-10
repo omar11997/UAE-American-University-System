@@ -1,0 +1,54 @@
+﻿@model List<Exam>
+<h2 style="text-align: center"> all Exams</h2>
+<a href="/Exam/AddNewExam" class="btn btn-primary">Add New Exam</a>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>CourseName</th>
+        <th>TotalDegree</th>
+        <th>Year</th>
+        <th>Edit</th>
+       
+
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.CourseName</td>
+            <td>@item.TotalDegree</td>
+            <td>@item.Year</td>
+
+            <td><a href="/Exam/GetExamById/@item.ID" class="btn btn-primary">See Exam Details</a></td>
+       
+
+        </tr>
+    }
+</table>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
